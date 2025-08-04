@@ -87,5 +87,5 @@ All data is stored in a MySQL database, and the backend is configured to work wi
 ## Limitations and Assumptions
 
 * **Login Credentials**: The user authentication is based on hardcoded credentials (`7760873976` / `to_share@123`) and does not use a proper user model or JWT.
-* **Database**: The project was developed and tested using MySQL instead of PostgreSQL.
+* **Database**: The project was developed and tested using MySQL.
 * **Input Validation**: Basic input validation is handled by Django REST Framework's serializers.
